@@ -36,6 +36,7 @@ def hit?(total)
     display_card_total(total)
     get_user_input
   elsif get_user_input == 's'
+  display_card_total(total)
   return total
   else
   invalid_command
